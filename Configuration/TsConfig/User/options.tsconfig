@@ -1,0 +1,35 @@
+options {
+    clipboardNumberPads = 1
+    contextMenu.table {
+        pages {
+            disableItems := addToList(new)
+            tree.disableItems := addToList(new)
+        }
+        sys_file {
+            disableItems := addToList(newFileMount)
+            tree.disableItems := addToList(newFileMount)
+        }
+        tt_content {
+            disableItems := addToList(new)
+        }
+    }
+    defaultResourcesViewMode = list
+    file_list {
+        enableClipBoard = activated
+        enableDisplayThumbnails = deactivated
+    }
+    folderTree.uploadFieldsInLinkBrowser = 0
+    noThumbsInEB = 1
+    pageTree {
+        doktypesToShowInNewPageDragArea = 
+        showDomainNameWithTitle = 1
+        showNavTitle = 1
+    }
+    showHistory = 1
+}
+
+[backend.user.isAdmin]
+options {
+    pageTree.doktypesToShowInNewPageDragArea = 1,6,4,3,254,199
+}
+[END]

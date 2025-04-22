@@ -1,2 +1,2 @@
 # phka_sitepackage
-TYPO3 Sitepackage der PHKA
+TYPO3 extension for our website

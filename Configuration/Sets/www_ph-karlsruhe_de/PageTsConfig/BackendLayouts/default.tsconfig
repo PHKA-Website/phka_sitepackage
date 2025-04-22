@@ -1,0 +1,58 @@
+mod.web_layout.BackendLayouts {
+    default {
+        title = LLL:EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf:pages.backend_layout.default
+        config {
+            backend_layout {
+                colCount = 1
+                rowCount = 5
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf:pages.backend_layout.column.hero
+                                colPos = 2
+                                identifier = hero
+                            }
+                        }
+                    }
+                    2 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf:pages.backend_layout.column.lead
+                                colPos = 1
+                                identifier = lead
+                            }
+                        }
+                    }
+                    3 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf:pages.backend_layout.column.content
+                                colPos = 0
+                                identifier = content
+                            }
+                        }
+                    }
+                    4 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf:pages.backend_layout.column.footer
+                                colPos = -1
+                                identifier = footer
+                            }
+                        }
+                    }
+                    5 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf:pages.backend_layout.column.hidden
+                                colPos = 100
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        icon = EXT:phka_sitepackage/Resources/Public/Images/BackendLayouts/default.png
+    }
+}

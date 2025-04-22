@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf" date="2023-09-27T12:00:00Z" product-name="phka_sitepackage">
+		<header/>
+		<body>
+			<trans-unit id="pages.backend_layout.default" resname="pages.backend_layout.default">
+				<source>Content page</source>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.empty" resname="pages.backend_layout.empty">
+				<source>Empty page</source>
+			</trans-unit>
+
+			<trans-unit id="pages.backend_layout.column.hero" resname="pages.backend_layout.column.hero">
+				<source>Hero section</source>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.lead" resname="pages.backend_layout.column.lead">
+				<source>Lead section</source>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.content" resname="pages.backend_layout.column.content">
+				<source>Content section</source>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.footer" resname="pages.backend_layout.column.footer">
+				<source>Footer section</source>
+			</trans-unit>
+			<trans-unit id="pages.backend_layout.column.hidden" resname="pages.backend_layout.column.hidden">
+				<source>Hidden section</source>
+			</trans-unit>
+
+			<trans-unit id="header.ALT.formlabel" resname="header.ALT.formlabel">
+				<source>Name (not visible in frontend)</source>
+			</trans-unit>
+
+			<trans-unit id="pages.icon" resname="pages.icon">
+				<source>Icon used for navigation</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

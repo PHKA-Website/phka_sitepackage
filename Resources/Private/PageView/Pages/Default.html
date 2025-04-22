@@ -1,0 +1,26 @@
+<f:layout name="Default" />
+
+<f:section name="Main">
+    <header
+        id="header-page"
+        aria-label="{f:translate(extensionName: 'phka_sitepackage', key: 'aria.label.header.page')}"
+    >
+        <f:render partial="PageBreadcrumb.html" arguments="{}" />
+        <f:render partial="PageHero.html" arguments="{}" />
+        <f:render partial="PageLead.html" arguments="{}" />
+        <f:render partial="PageControls.html" arguments="{}" />
+    </header>
+    <article
+        id="article-page"
+    >
+        <f:render partial="PageHeading" arguments="{}" />
+        <f:render partial="PageContent.html" arguments="{}" /> 
+    </article>
+    <footer
+        id="footer-page"
+        aria-label="{f:translate(extensionName: 'phka_sitepackage', key: 'aria.label.footer.page')}"
+    >
+        <f:render partial="PageAside" arguments="{}" />
+        <f:render partial="PageAddress" arguments="{}" />
+    </footer>
+</f:section>

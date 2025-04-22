@@ -1,0 +1,9 @@
+TCEMAIN {
+    linkHandler {
+        # Add link handler for news
+        # Add link handler for person pages
+    }
+    preview {
+        // Interesting feature for e.g. news or person pages
+    }
+}

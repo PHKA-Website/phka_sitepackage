@@ -1,0 +1,16 @@
+<f:asset.css identifier="bundle" href="EXT:phka_frontend/Resources/Public/Css/bundle.css" />
+<f:asset.script identifier="bundle" async="1" defer="1" priority="1" src="EXT:phka_frontend/Resources/Public/JavaScript/bundle.js" />
+
+<div class="flex flex-col w-full min-h-full">
+    <f:render partial="PrivacyNotice.html" arguments="" />
+    <f:render partial="PrependHeader.html" arguments="" />
+    <f:render partial="Header.html" arguments="" />
+    <main
+        id="main-page"
+        aria-label="{f:translate(extensionName: 'phka_sitepackage', key: 'aria.label.main.page')}"
+    >
+        <f:render section="Main" />
+    </main>
+    <f:render partial="Footer.html" arguments="" />
+    <f:render partial="Sidebar.html" arguments="" />
+</div>

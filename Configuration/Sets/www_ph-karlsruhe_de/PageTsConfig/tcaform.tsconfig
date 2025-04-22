@@ -1,0 +1,44 @@
+TCEFORM {
+    pages {
+        backend_layout.types {
+            1.keepItems = , pagets__default
+            6.keepItems = , pagets__default
+        }
+        backend_layout_next_level.types {
+            1.keepItems = , pagets__default, pagets__prev_next
+            6.keepItems = , pagets__default, pagets__prev_next
+            254.keepItems = , pagets__default, pagets__prev_next
+        }
+        media.disabled = 1
+        extendToSubpages.disabled = 1
+        php_tree_stop.disabled = 1
+        newUntil.disabled = 1
+        layout.disabled = 1
+        target.disabled = 1
+        module.disabled = 1
+        module.types.254.disabled = 0
+        no_search.types {
+            3.disabled = 1
+            4.disabled = 1
+        }
+        author.disabled = 1
+        author_email.disabled = 1
+        lastUpdated.types {
+            3.disabled = 1
+            4.disabled = 1
+        }
+        subtitle.types {
+            3.disabled = 1
+            4.disabled = 1
+        }
+    }
+    tt_content {
+        header_layout.disableNoMatchingValueElement = 1
+        header_layout {
+            keepItems =
+            addItems {
+                100 = Hidden
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+name: phka/infoscreen_ph-karlsruhe_de
+label: Siteset for infoscreen.ph-karlsruhe.de
+dependencies:
+  - typo3/fluid-styled-content

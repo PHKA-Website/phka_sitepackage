@@ -1,0 +1,17 @@
+[!backend.user.isAdmin]
+admPanel {
+    enable {
+        cache = 1
+        debug = 0
+        edit = 1
+        info = 0
+        preview = 1
+        publish = 0
+        tsdebug = 0
+    }
+    hide = 0
+    // Does not work as intended
+    // https://forge.typo3.org/issues/102090
+    override.preview.showFluidDebug = 0
+}
+[END]

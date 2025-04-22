@@ -1,0 +1,33 @@
+page = PAGE
+page {
+    typeNum = 0
+    bodyTagAdd = tabindex="-1"
+    shortcutIcon = EXT:phka_sitepackage/Resources/Public/Images/favicon.ico
+
+    10 = PAGEVIEW
+    10 {
+        paths {
+            0 = EXT:phka_sitepackage/Resources/Private/PageView/
+            1 = {$page.pageview.paths}
+        }
+        dataProcessing {
+            20 = menu
+            20 {
+                levels = 4
+                as = mainnavigation
+            }
+            30 = page-content
+        }
+    }
+
+    meta {
+        viewport = {$page.meta.viewport}
+        robots = {$page.meta.robots}
+        apple-mobile-web-app-capable = {$page.meta.apple-mobile-web-app-capable}
+
+        X-UA-Compatible = {$page.meta.compatible}
+        X-UA-Compatible {
+            attribute = http-equiv
+        }
+    }
+}

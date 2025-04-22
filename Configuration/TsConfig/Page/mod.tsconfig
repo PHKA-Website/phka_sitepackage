@@ -1,0 +1,16 @@
+mod.web_info.fieldDefinitions {
+    2 {
+        # Cache and age
+        fields := removeFromList(newUntil,php_tree_stop,is_siteroot)
+    }
+    3 {
+        # Layouts
+        # backend_layout, backend_layout_next_level are currently disabled cause of a bug, if fixed remove next line
+        fields := removeFromList(backend_layout,backend_layout_next_level)
+        fields := removeFromList(layout)
+    }
+}
+
+mod.web_list {
+    itemsLimitPerTable = 30
+}

@@ -1,0 +1,8 @@
+name: phka/www_ph-karlsruhe_de
+label: Siteset for www.ph-karlsruhe.de
+dependencies:
+  - typo3/fluid-styled-content
+  - typo3/felogin
+  - typo3/redirects
+  - typo3/seo-sitemap
+  - phka/dd_deepl

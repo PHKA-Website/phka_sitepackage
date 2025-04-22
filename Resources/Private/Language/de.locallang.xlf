@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:phka_sitepackage/Resources/Private/Language/locallang.xlf" date="2022-12-05T12:00:00Z" product-name="phka_sitepackage" target-language="de">
+		<header/>
+		<body>
+			<trans-unit id="aria.label.main.page" resname="aria.label.main.page">
+				<source>Webpage</source>
+				<target>Webseite</target>
+			</trans-unit>
+
+			<trans-unit id="aria.label.header.site.prepend" resname="aria.label.header.site.prepend">
+				<source>Meta</source>
+				<target>Meta</target>
+			</trans-unit>
+			<trans-unit id="aria.label.header.site" resname="aria.label.header.site">
+				<source>Website</source>
+				<target>Webauftritt</target>
+			</trans-unit>
+			<trans-unit id="aria.label.header.page" resname="aria.label.header.page">
+				<source>Webpage</source>
+				<target>Webseite</target>
+			</trans-unit>
+
+			<trans-unit id="aria.label.nav.site" resname="aria.label.nav.site">
+				<source>Website</source>
+				<target>Webauftritt</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.site.menu" resname="aria.label.nav.site.menu">
+				<source>Website menu</source>
+				<target>Webauftritt Menü</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.breadcrumb" resname="aria.label.nav.breadcrumb">
+				<source>Breadcrumb</source>
+				<target>Brotkrumen</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.language" resname="aria.label.nav.language">
+				<source>Language</source>
+				<target>Sprache</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.language.menu" resname="aria.label.nav.language.menu">
+				<source>Language menu</source>
+				<target>Sprache Menü</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.accessibility" resname="aria.label.nav.accessibility">
+				<source>Accessibility</source>
+				<target>Barrierefreiheit</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.accessibility.menu" resname="aria.label.nav.accessibility.menu">
+				<source>Accessibility menu</source>
+				<target>Barrierefreiheit Menü</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.internal" resname="aria.label.nav.internal">
+				<source>Internal</source>
+				<target>Intern</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.internal.menu" resname="aria.label.nav.internal.menu">
+				<source>Internal menu</source>
+				<target>Intern Menü</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.page" resname="aria.label.nav.page">
+				<source>Webpage</source>
+				<target>Webseite</target>
+			</trans-unit>
+			<trans-unit id="aria.label.nav.page.menu" resname="aria.label.nav.page.menu">
+				<source>Webpage menu</source>
+				<target>Webseite Menü</target>
+			</trans-unit>
+
+			<trans-unit id="aria.label.footer.site" resname="aria.label.footer.site">
+				<source>Website</source>
+				<target>Webauftritt</target>
+			</trans-unit>
+			<trans-unit id="aria.label.footer.page" resname="aria.label.footer.page">
+				<source>Webpage</source>
+				<target>Webseite</target>
+			</trans-unit>
+
+			<trans-unit id="date.format" resname="date.format">
+				<source>d MMMM yyyy</source>
+				<target>d. MMMM yyyy</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

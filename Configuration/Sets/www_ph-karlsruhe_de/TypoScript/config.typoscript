@@ -1,0 +1,33 @@
+config {
+    absRefPrefix = auto
+    admPanel = {$config.admPanel}
+    compressCss = 1
+    compressJs = 1
+    concatenateCss = 1
+    concatenateJs = 1
+    debug = 0
+    disablePrefixComment = 1
+    disablePreviewNotification = 1
+    extTarget = _blank
+    fileTarget = _blank
+    headerComment = {$config.headerComment}
+    intTarget = _self
+    metaCharset = utf-8
+    no_cache = {$config.no_cache}
+    noScaleUp = 1
+    pageTitleFirst = 1
+    pageTitleSeparator = |
+    pageTitleSeparator.noTrimWrap = | | |
+    removeDefaultCss = {$config.removeDefaultCss}
+    removeDefaultJS = {$config.removeDefaultJS}
+    sendCacheHeaders = {$config.sendCacheHeaders}
+    sendCacheHeadersForSharedCaches = {$config.sendCacheHeadersForSharedCaches}
+    spamProtectEmailAddresses = {$config.spamProtectEmailAddresses}
+    spamProtectEmailAddresses_atSubst = {$config.spamProtectEmailAddresses_atSubst}
+}
+
+[applicationContext matches "/^Development/"]
+    config {
+        debug = 1
+    }
+[END]

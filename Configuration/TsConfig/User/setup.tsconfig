@@ -1,0 +1,30 @@
+setup {
+    fields {
+        backendTitleFormat.disabled = 1
+        edit_docModuleUpload.disabled = 1
+        emailMeAtLogin.disabled = 1
+        neverHideAtCopy.disabled = 1
+        avatar.disabled = 1
+    }
+    override {
+        backendTitleFormat = titleFirst
+        edit_docModuleUpload = 0
+        emailMeAtLogin = 0
+        neverHideAtCopy = 0
+    }
+    default {
+        copyLevels = 3
+        lang = de
+    }
+}
+
+[!backend.user.isAdmin]
+setup {
+    fields {
+        showHiddenFilesAndFolders.disabled = 1
+    }
+    override {
+        showHiddenFilesAndFolders = 0
+    }
+}
+[END]

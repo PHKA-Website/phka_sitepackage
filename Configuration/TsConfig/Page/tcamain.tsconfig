@@ -1,0 +1,12 @@
+TCEMAIN {
+    linkHandler {
+        folder >
+    }
+    permissions {
+        userid = 0
+        user = 0
+        groupid = copyFromParent
+        group = copyFromParent
+        everybody = copyFromParent
+    }
+}

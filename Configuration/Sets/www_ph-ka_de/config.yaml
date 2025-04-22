@@ -1,0 +1,4 @@
+name: phka/www_ph-ka_de
+label: Siteset for www.ph-ka.de
+dependencies:
+  - typo3/redirects

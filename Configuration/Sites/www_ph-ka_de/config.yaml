@@ -1,0 +1,19 @@
+base: 'https://www.ph-ka.de/'
+baseVariants:
+  -
+    base: 'https://dev.www.ph-ka.de'
+    condition: 'applicationContext == "Development/phka"'
+dependencies:
+  - phka/www_ph-ka_de
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    locale: de_DE.utf8
+    hreflang: de-DE
+    base: /
+    websiteTitle: ''
+    navigationTitle: ''
+    flag: de
+    languageId: 0
+websiteTitle: 'Pädagogische Hochschule Karlsruhe'

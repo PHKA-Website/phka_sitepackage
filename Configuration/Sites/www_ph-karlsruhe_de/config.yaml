@@ -1,0 +1,41 @@
+base: 'https://www.ph-karlsruhe.de/'
+baseVariants:
+  -
+    base: 'https://dev.www.ph-karlsruhe.de'
+    condition: 'applicationContext == "Development/phka"'
+  -
+    base: 'https://t3demo.ph-karlsruhe.de'
+    condition: 'applicationContext == "Development/t3demo"'
+dependencies:
+  - phka/www_ph-karlsruhe_de
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    typo3Language: de
+    locale: de_DE.utf8
+    navigationTitle: 'Deutsch'
+    hreflang: ''
+    flag: de
+    websiteTitle: ''
+  -
+    title: English
+    enabled: true
+    languageId: 1
+    base: /en/
+    locale: en_GB.utf8
+    navigationTitle: 'English'
+    hreflang: ''
+    flag: gb
+    websiteTitle: 'University of Education'
+    fallbackType: fallback
+    fallbacks: '0'
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    map:
+      /: 0
+      sitemap.xml: 1533906435
+websiteTitle: 'Pädagogische Hochschule Karlsruhe'

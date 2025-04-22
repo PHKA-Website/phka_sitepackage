@@ -1,0 +1,19 @@
+base: 'https://infoscreen.ph-karlsruhe.de/'
+baseVariants:
+  -
+    base: 'https://dev.infoscreen.ph-karlsruhe.de'
+    condition: 'applicationContext == "Development/phka"'
+dependencies:
+  - phka/infoscreen_ph-karlsruhe_de
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    locale: de_DE.utf8
+    hreflang: de-DE
+    base: /
+    websiteTitle: ''
+    navigationTitle: ''
+    flag: de
+    languageId: 0
+websiteTitle: 'Pädagogische Hochschule Karlsruhe'

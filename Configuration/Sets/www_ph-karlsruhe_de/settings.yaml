@@ -1,0 +1,29 @@
+redirects:
+  redirectTTL: 90
+
+styles:
+  templates:
+    layoutRootPath: 'EXT:phka_sitepackage/Resources/Private/ContentElements/Layouts/'
+    partialRootPath: 'EXT:phka_sitepackage/Resources/Private/ContentElements/Partials/'
+    templateRootPath: 'EXT:phka_sitepackage/Resources/Private/ContentElements/Templates/'
+
+page:
+  pageview:
+    paths: 'EXT:phka_sitepackage/Resources/Private/PageView/'
+
+  meta:
+    viewport: 'width=device-width, initial-scale=1'
+    robots: 'index,follow'
+    apple-mobile-web-app-capable: 'no'
+    compatible: 'IE=edge'
+
+config:
+  admPanel: '1'
+  headerComment: 'Pädagogische Hochschule Karlsruhe'
+  no_cache: '0'
+  removeDefaultCss: '1'
+  removeDefaultJS: '0'
+  sendCacheHeaders: '1'
+  sendCacheHeadersForSharedCaches: 'auto'
+  spamProtectEmailAddresses_atSubst: '&#64;'
+  spamProtectEmailAddresses: '-2'

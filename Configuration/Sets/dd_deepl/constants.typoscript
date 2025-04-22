@@ -1,0 +1,3 @@
+[extension.isLoaded('dd_deepl')]
+    @import 'EXT:dd_deepl/Configuration/TypoScript/constants.typoscript'
+[END]

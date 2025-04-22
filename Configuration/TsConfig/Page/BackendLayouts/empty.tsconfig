@@ -1,0 +1,12 @@
+mod.web_layout.BackendLayouts {
+    empty {
+        title = LLL:EXT:phka_sitepackage/Resources/Private/Language/locallang.be.xlf:pages.backend_layout.empty
+        config {
+            backend_layout {
+                colCount = 0
+                rowCount = 0
+            }
+        }
+        icon = EXT:phka_sitepackage/Resources/Public/Images/BackendLayouts/empty.png
+    }
+}
